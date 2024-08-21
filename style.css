@@ -1,0 +1,59 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.judul {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.pesan {
+    font-size: 18px;
+    color: #666;
+}
+
+.kue {
+    margin-top: 20px;
+}
+
+.kue img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.animated-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.char {
+    display: inline-block;
+    animation: animate 2s infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-20px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+}
